@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #FFFDF9;
+    color: #24140E;
+    font-family: 'Plus Jakarta Sans', 'DM Sans', 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+
+  [dir="rtl"] {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0;
+  }
+
+  /* Custom modern scrollbar matching the storefront red palette */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF7F2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5D7CB;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C0121D;
+  }
+}
+
+@layer utilities {
+  .text-signboard-red {
+    color: #C0121D;
+  }
+
+  .bg-signboard-red {
+    background-color: #C0121D;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FFF0B8 0%, #D4AF37 50%, #AA851C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-red-gradient {
+    background: linear-gradient(135deg, #E0202C 0%, #C0121D 50%, #8A0B13 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .shimmer-badge {
+    position: relative;
+    overflow: hidden;
+  }
+  .shimmer-badge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+    transform: skewX(-20deg);
+    animation: badgeShimmer 3.5s infinite;
+  }
+
+  @keyframes badgeShimmer {
+    0% { left: -100%; }
+    25%, 100% { left: 180%; }
+  }
+
+  /* Hide scrollbar for category tabs */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
