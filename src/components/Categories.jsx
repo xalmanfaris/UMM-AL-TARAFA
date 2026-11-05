@@ -11,7 +11,7 @@ export const categoryCardsData = [
     titleAr: 'الشوكولاتة',
     descEn: 'Assorted milk, dark, and caramel-filled chocolate treats.',
     descAr: 'تشكيلة شوكولاتة بالحليب والداكنة وبحشوات الكراميل اللذيذة.',
-    image: '/assets/luxury-truffles.jpg',
+    image: './assets/luxury-truffles.jpg',
   },
   {
     id: 'nuts',
@@ -19,7 +19,7 @@ export const categoryCardsData = [
     titleAr: 'المكسرات الطازجة',
     descEn: 'Pistachios, smoked almonds, cashews, and mixed cocktail nuts.',
     descAr: 'فستق حلبي، لوز مدخن مقرمش، كاجو، ومكسرات مشكلة فاخرة.',
-    image: '/assets/products/pistachio.jpg',
+    image: './assets/products/pistachio.jpg',
   },
   {
     id: 'dry-fruits',
@@ -27,7 +27,7 @@ export const categoryCardsData = [
     titleAr: 'الفواكه المجففة والتمور',
     descEn: 'Medjool dates stuffed with nuts, dried figs, and soft apricots.',
     descAr: 'تمر مجهول محشي بالمكسرات، تين مجفف، ومشمش طري.',
-    image: '/assets/products/sweets_4.webp',
+    image: './assets/products/sweets_4.webp',
   },
   {
     id: 'sweets',
@@ -35,7 +35,7 @@ export const categoryCardsData = [
     titleAr: 'الحلويات الشرقية',
     descEn: 'Crispy layered baklava, Turkish delights, and sweet confections.',
     descAr: 'بقلاوة مقرمشة محشوة بالمكسرات، وحلقوم شهي للمناسبات.',
-    image: '/assets/products/sweets_1.webp',
+    image: './assets/products/sweets_1.webp',
   },
   {
     id: 'spices',
@@ -43,7 +43,7 @@ export const categoryCardsData = [
     titleAr: 'البهارات والزعفران',
     descEn: 'Pure crimson saffron threads, green cardamom, and cinnamon sticks.',
     descAr: 'خيوط زعفران نقية، حبوب هيل أخضر، وأعواد قرفة عطرية.',
-    image: '/assets/exotic-spices.jpg',
+    image: './assets/exotic-spices.jpg',
   },
   {
     id: 'gift-boxes',
@@ -51,7 +51,7 @@ export const categoryCardsData = [
     titleAr: 'بوكسات الهدايا',
     descEn: 'Custom celebratory boxes packed with your choice of sweets and nuts.',
     descAr: 'صناديق هدايا أنيقة للمناسبات والأعياد حسب اختيارك.',
-    image: '/assets/luxury-hamper.jpg',
+    image: './assets/luxury-hamper.jpg',
   },
 ];
 

@@ -24,7 +24,7 @@ export const RewardsStrip = () => {
             <div className="flex items-center gap-3 sm:gap-4 text-left rtl:text-right">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white shadow-xs flex items-center justify-center p-1 transform hover:rotate-6 transition-transform shrink-0">
                 <img
-                  src="/assets/bitejoy/rewards-mascot.png"
+                  src="./assets/bitejoy/rewards-mascot.png"
                   alt="Umm Al Tarafa Rewards Mascot"
                   className="w-full h-full object-contain"
                 />

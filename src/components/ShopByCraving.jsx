@@ -61,7 +61,7 @@ export const ShopByCraving = ({ selectedCategory, onSelectCategory }) => {
                     loading="lazy"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
-                      e.currentTarget.src = cat.icon || '/assets/luxury-truffles.jpg';
+                      e.currentTarget.src = cat.icon || './assets/luxury-truffles.jpg';
                     }}
                     className="w-full h-full object-cover transform group-hover:scale-108 transition-transform duration-700"
                   />

@@ -23,7 +23,7 @@ export const ZeroTricks = () => {
             {/* Bottom mini image */}
             <div className="rounded-2xl overflow-hidden mt-6 bg-black/20 shadow-sm">
               <img
-                src="/assets/modern/toast_morning.jpg"
+                src="./assets/modern/toast_morning.jpg"
                 alt="Zero tricks toast"
                 className="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -40,7 +40,7 @@ export const ZeroTricks = () => {
               {/* Plate with toast and ramekins photo */}
               <div className="rounded-2xl overflow-hidden my-3 shadow-md bg-white/40">
                 <img
-                  src="/assets/modern/bento_plate.jpg"
+                  src="./assets/modern/bento_plate.jpg"
                   alt="Aesthetic Breakfast Bento Plate"
                   className="w-full h-52 sm:h-60 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -76,7 +76,7 @@ export const ZeroTricks = () => {
             <div className="bg-white rounded-3xl p-6 shadow-sm border border-[#24140E]/10 flex items-center gap-5">
               <div className="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 bg-[#FAF7F2] p-1">
                 <img
-                  src="/assets/modern/nut_basket.jpg"
+                  src="./assets/modern/nut_basket.jpg"
                   alt="Healthy and pure"
                   className="w-full h-full object-cover rounded-xl"
                 />

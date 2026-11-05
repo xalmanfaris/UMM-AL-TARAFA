@@ -77,7 +77,7 @@ export const CleanIngredients = () => {
               {/* Basket of Nuts photo */}
               <div className="rounded-2xl overflow-hidden my-4 shadow-sm bg-white/40">
                 <img
-                  src="/assets/modern/nut_basket.jpg"
+                  src="./assets/modern/nut_basket.jpg"
                   alt="A Purist's Pantry Essential"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -107,7 +107,7 @@ export const CleanIngredients = () => {
               {/* Artisan Jar / Product photo */}
               <div className="rounded-2xl overflow-hidden my-4 shadow-sm bg-black/20">
                 <img
-                  src="/assets/modern/hero_jars.jpg"
+                  src="./assets/modern/hero_jars.jpg"
                   alt="Sustainably Harvested"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -126,7 +126,7 @@ export const CleanIngredients = () => {
                     nameAr: 'شوكولاتة الفول السوداني',
                     priceAED: 28,
                     weight: '350g',
-                    image: '/assets/modern/hero_jars.jpg',
+                    image: './assets/modern/hero_jars.jpg',
                   })
                 }
                 className="w-9 h-9 rounded-xl bg-[#F8C868] text-[#24140E] hover:bg-white flex items-center justify-center transition-colors shadow-sm"
@@ -151,7 +151,7 @@ export const CleanIngredients = () => {
               {/* Breakfast Toast photo */}
               <div className="rounded-2xl overflow-hidden my-2 shadow-sm bg-white/50">
                 <img
-                  src="/assets/modern/toast_morning.jpg"
+                  src="./assets/modern/toast_morning.jpg"
                   alt="A Purist Breakfast with Butter"
                   className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />

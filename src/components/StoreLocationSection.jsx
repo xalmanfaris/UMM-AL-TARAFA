@@ -111,12 +111,12 @@ export const StoreLocationSection = () => {
               
               {/* Storefront Image */}
               <img
-                src="/assets/storefront.jpg"
+                src="./assets/storefront.jpg"
                 alt="UMM AL TARAFA Sweets & Nuts storefront, Souq Al Rolla, Sharjah"
                 className="w-full h-full object-cover transform group-hover:scale-102 transition-transform duration-700 opacity-95"
                 onError={(e) => {
                   e.currentTarget.onerror = null;
-                  e.currentTarget.src = '/assets/storefront-real.jpg';
+                  e.currentTarget.src = './assets/storefront-real.jpg';
                 }}
               />
 
@@ -305,12 +305,12 @@ export const StoreLocationSection = () => {
 
             <div className="relative aspect-[4/3] sm:aspect-[16/10] bg-black">
               <img
-                src="/assets/storefront.jpg"
+                src="./assets/storefront.jpg"
                 alt="Storefront full view"
                 className="w-full h-full object-contain"
                 onError={(e) => {
                   e.currentTarget.onerror = null;
-                  e.currentTarget.src = '/assets/storefront-real.jpg';
+                  e.currentTarget.src = './assets/storefront-real.jpg';
                 }}
               />
             </div>

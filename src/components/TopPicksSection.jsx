@@ -205,7 +205,7 @@ export const TopPicksSection = ({
                     loading="lazy"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
-                      e.currentTarget.src = '/assets/luxury-truffles.jpg';
+                      e.currentTarget.src = './assets/luxury-truffles.jpg';
                     }}
                     className="max-h-full max-w-full object-contain transform group-hover:scale-108 transition-transform duration-300 drop-shadow-sm"
                   />

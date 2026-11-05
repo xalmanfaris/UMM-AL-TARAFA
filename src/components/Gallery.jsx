@@ -10,7 +10,7 @@ export const Gallery = () => {
   // Gallery items including new motion videos and high-res product visuals
   const galleryItems = [
     {
-      src: '/assets/showcase-video-2.mp4',
+      src: './assets/showcase-video-2.mp4',
       isVideo: true,
       titleEn: 'Fresh Confectionery in Motion',
       titleAr: 'حلويات ومكسرات طازجة بالفيديو',
@@ -19,7 +19,7 @@ export const Gallery = () => {
       span: 'md:col-span-2 md:row-span-2',
     },
     {
-      src: '/assets/luxury-truffles.jpg',
+      src: './assets/luxury-truffles.jpg',
       isVideo: false,
       titleEn: 'Chocolate Truffles',
       titleAr: 'ترافل الشوكولاتة الفاخرة',
@@ -28,7 +28,7 @@ export const Gallery = () => {
       span: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: '/assets/products/pistachio.jpg',
+      src: './assets/products/pistachio.jpg',
       isVideo: false,
       titleEn: 'Roasted In-Shell Pistachios',
       titleAr: 'فستق حلبي محمص ومملح',
@@ -37,7 +37,7 @@ export const Gallery = () => {
       span: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: '/assets/products/sweets_4.webp',
+      src: './assets/products/sweets_4.webp',
       isVideo: false,
       titleEn: 'Stuffed Medjool Dates',
       titleAr: 'تمر مجهول محشي بالمكسرات',
@@ -46,7 +46,7 @@ export const Gallery = () => {
       span: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: '/assets/exotic-spices.jpg',
+      src: './assets/exotic-spices.jpg',
       isVideo: false,
       titleEn: 'Pure Saffron Threads',
       titleAr: 'خيوط زعفران نقية',
@@ -55,7 +55,7 @@ export const Gallery = () => {
       span: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: '/assets/luxury-hamper.jpg',
+      src: './assets/luxury-hamper.jpg',
       isVideo: false,
       titleEn: 'Celebration Gift Hamper',
       titleAr: 'صندوق هدايا المناسبات والأعياد',

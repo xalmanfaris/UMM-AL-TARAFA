@@ -47,7 +47,7 @@ export const BuildBoxModal = ({ isOpen, onClose }) => {
       nameEn: `UMM AL TARAFA ${selectedSize.name} (${selectedSnacks.length} Snacks)`,
       nameAr: `بوكس أم الطرافة المميز (${selectedSnacks.length} أصناف)`,
       priceAED: selectedSize.priceAED,
-      image: '/assets/bitejoy/goodness-box.png',
+      image: './assets/bitejoy/goodness-box.png',
       weight: `${selectedSize.count} Items`,
     });
 
@@ -195,7 +195,7 @@ export const BuildBoxModal = ({ isOpen, onClose }) => {
                       alt={product.nameEn}
                       onError={(e) => {
                         e.currentTarget.onerror = null;
-                        e.currentTarget.src = '/assets/luxury-truffles.jpg';
+                        e.currentTarget.src = './assets/luxury-truffles.jpg';
                       }}
                       className="w-8 h-8 sm:w-10 sm:h-10 object-contain shrink-0 rounded-lg bg-[#FAF7F2] p-0.5"
                     />

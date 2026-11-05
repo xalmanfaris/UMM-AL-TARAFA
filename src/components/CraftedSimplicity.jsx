@@ -16,7 +16,7 @@ export const CraftedSimplicity = () => {
               {lang === 'ar' ? 'مصنوع ببساطة' : 'CRAFTED'}
               <span className="inline-block w-9 h-9 sm:w-12 sm:h-12 rounded-full overflow-hidden align-middle border-2 border-[#24140E]/20 shadow-sm">
                 <img
-                  src="/assets/modern/toast_morning.jpg"
+                  src="./assets/modern/toast_morning.jpg"
                   alt="Toast"
                   className="w-full h-full object-cover"
                 />
@@ -28,7 +28,7 @@ export const CraftedSimplicity = () => {
               {lang === 'ar' ? 'ومحتفى به في كل نكهة' : 'CELEBRATED IN FLAVOR'}
               <span className="inline-block w-9 h-9 sm:w-12 sm:h-12 rounded-full overflow-hidden align-middle border-2 border-[#24140E]/20 shadow-sm bg-[#F8C868] p-1.5">
                 <img
-                  src="/assets/modern/honey_drizzle.jpg"
+                  src="./assets/modern/honey_drizzle.jpg"
                   alt="Spoon"
                   className="w-full h-full object-cover rounded-full"
                 />
@@ -71,7 +71,7 @@ export const CraftedSimplicity = () => {
             <div className="relative w-full max-w-sm group">
               <div className="rounded-3xl overflow-hidden shadow-xl border border-[#24140E]/10 bg-white">
                 <img
-                  src="/assets/modern/stacked_sandwich.jpg"
+                  src="./assets/modern/stacked_sandwich.jpg"
                   alt="Crafted with simplicity stacked toast sandwich"
                   className="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
                 />

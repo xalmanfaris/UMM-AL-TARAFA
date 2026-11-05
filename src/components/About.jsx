@@ -38,7 +38,7 @@ export const About = () => {
               {/* Looping Muted Showcase Video */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-black/60">
                 <video
-                  src="/assets/showcase-video-1.mp4"
+                  src="./assets/showcase-video-1.mp4"
                   muted
                   loop
                   playsInline

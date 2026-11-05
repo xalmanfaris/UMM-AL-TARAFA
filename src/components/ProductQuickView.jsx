@@ -71,7 +71,7 @@ export const ProductQuickView = ({ product, isOpen, onClose }) => {
                   alt={productName}
                   onError={(e) => {
                     e.currentTarget.onerror = null;
-                    e.currentTarget.src = '/assets/luxury-truffles.jpg';
+                    e.currentTarget.src = './assets/luxury-truffles.jpg';
                   }}
                   className="w-full h-full object-contain drop-shadow-md rounded-2xl"
                 />

@@ -11,21 +11,21 @@ export const HonestIngredients = () => {
       titleAr: 'شوكولاتة عضوية قابلة للدهن',
       descEn: 'Pure Cocoa Organic Chocolate Spread',
       descAr: 'كاكاو نقي مع بندق وفول سوداني محمص',
-      img: '/assets/modern/hero_jars.jpg',
+      img: './assets/modern/hero_jars.jpg',
     },
     {
       titleEn: 'NATURAL PEANUT CRUNCH',
       titleAr: 'زبدة فول سوداني مقرمشة',
       descEn: 'Crunchy Natural Peanuts Rich Flavor',
       descAr: 'حبات مقرمشة طبيعية ونكهة غنية',
-      img: '/assets/modern/stacked_sandwich.jpg',
+      img: './assets/modern/stacked_sandwich.jpg',
     },
     {
       titleEn: 'ORGANIC PEANUT BUTTER',
       titleAr: 'زبدة الفول السوداني النقية',
       descEn: 'Simply Made Organic Peanut Butter',
       descAr: 'مصنوعة ببساطة ونقاء تام',
-      img: '/assets/modern/artisan_jar.jpg',
+      img: './assets/modern/artisan_jar.jpg',
     },
   ];
 
@@ -74,7 +74,7 @@ export const HonestIngredients = () => {
             <div className="relative w-full max-w-sm group">
               <div className="rounded-3xl overflow-hidden shadow-2xl border border-[#24140E]/10 bg-white">
                 <img
-                  src="/assets/modern/artisan_jar.jpg"
+                  src="./assets/modern/artisan_jar.jpg"
                   alt="Artisan Mason Jar with Twine"
                   className="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
                 />

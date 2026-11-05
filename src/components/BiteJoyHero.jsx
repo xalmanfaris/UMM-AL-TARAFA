@@ -23,7 +23,7 @@ export const BiteJoyHero = ({ onOpenBuildBox }) => {
           playsInline
           className="w-full h-full object-cover object-center scale-102"
         >
-          <source src="/assets/background.mp4" type="video/mp4" />
+          <source src="./assets/background.mp4" type="video/mp4" />
         </video>
 
         {/* Soft Warm Overlay to ensure clear contrast & brand aesthetic */}
@@ -118,7 +118,7 @@ export const BiteJoyHero = ({ onOpenBuildBox }) => {
           <div className="lg:col-span-6 relative mt-4 lg:mt-0 flex items-center justify-center">
             <div className="relative mx-auto max-w-sm sm:max-w-md lg:max-w-lg group">
               <img
-                src="/assets/vectorchoco.png"
+                src="./assets/vectorchoco.png"
                 alt="Umm Al Tarafa fresh chocolates and roasted nuts"
                 className="w-full h-auto max-h-[480px] object-contain drop-shadow-[0_20px_40px_rgba(36,20,14,0.18)] transform group-hover:scale-105 transition-transform duration-500"
               />

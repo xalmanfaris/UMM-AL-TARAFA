@@ -21,7 +21,7 @@ export const LetItShine = () => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden shadow-xl border border-[#24140E]/10 bg-white group">
               <img
-                src="/assets/modern/toast_morning.jpg"
+                src="./assets/modern/toast_morning.jpg"
                 alt="Peanut toast"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -71,7 +71,7 @@ export const LetItShine = () => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden shadow-xl border border-[#24140E]/10 bg-white group">
               <img
-                src="/assets/modern/honey_drizzle.jpg"
+                src="./assets/modern/honey_drizzle.jpg"
                 alt="Honey butter drizzle"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

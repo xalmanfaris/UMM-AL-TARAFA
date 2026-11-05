@@ -16,8 +16,8 @@ export const Hero = () => {
       nameEn: 'Pistachio Chocostick',
       nameAr: 'فستق شوكو ستيك الفاخر',
       priceAED: 38,
-      video: '/assets/pistachio-chocostick.webm',
-      image: '/assets/products/pistachio.jpg',
+      video: './assets/pistachio-chocostick.webm',
+      image: './assets/products/pistachio.jpg',
       badgeColor: 'border-[#2C442D]',
     },
     {
@@ -25,8 +25,8 @@ export const Hero = () => {
       nameEn: 'Bounty Chocolate',
       nameAr: 'شوكولاتة باونتي الفاخرة',
       priceAED: 24,
-      video: '/assets/bounty.webm',
-      image: '/assets/modern/artisan_jar.jpg',
+      video: './assets/bounty.webm',
+      image: './assets/modern/artisan_jar.jpg',
       badgeColor: 'border-[#1E4D6B]',
     },
     {
@@ -34,8 +34,8 @@ export const Hero = () => {
       nameEn: 'Pistachio Kunafa Chocolate',
       nameAr: 'شوكولاتة كنافة بالفستق الحلبي',
       priceAED: 28,
-      video: '/assets/kunafa.webm',
-      image: '/assets/products/pistachio.jpg',
+      video: './assets/kunafa.webm',
+      image: './assets/products/pistachio.jpg',
       badgeColor: 'border-[#55722F]',
     },
   ];
@@ -158,7 +158,7 @@ export const Hero = () => {
                   </div>
                 ) : (
                   <img
-                    src={coreProducts[selectedCoreIdx].image || '/assets/modern/hero_jars.jpg'}
+                    src={coreProducts[selectedCoreIdx].image || './assets/modern/hero_jars.jpg'}
                     alt="Umm Al Tarafa Core Product"
                     className="w-full h-auto max-h-[460px] object-contain transition-transform duration-700 group-hover:scale-105"
                   />
